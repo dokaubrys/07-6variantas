@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6 variantas (maketo dizainas)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href='6variantas.css'>
+
+</head>
+<body>
+
+    <div class='header' class='clearfix'>
+        <div class='vienas'>
+            <div class='menu' id='show' class='clearfix'>
+                <p class='menu-text' id='services'>SERVICES</p>
+                <p class='menu-text' class='about'>ABOUT US</p>
+                <p class='menu-text' >OUR TEAM</p>
+                <p class='menu-text' >TESTIMONIALS</p>
+                <p class='menu-text' >NEWS</p>
+                <p class='menu-text' id='contacts'>CONTACTS</p>
+                 
+                <div class='ru-en' class='clearfix'>
+                    <p class='menu-text' id='ru'>RU</p>
+                    <p class='menu-text' class='en'>EN</p>
+                    <span id='toggle-search' class='kvadrt'><span class='fa fa-search'></span></span>
+                </div> 
+            </div> 
+        </div>
+        <button id='hamburger' class='toggle' class='active'>
+                <span class='icon'></span>
+        </button>
+    </div>
+    
+    <div class='container-top'>
+        <div class='text1'>
+            <h1>Let us brighten your smile!</h1>
+            <p class='text-p'>We are dental care clinic that helps people to take care of their health and we have best dental doctors in here.</p>
+            <button class='btn'>Learn More</button>
+        </div>
+        <div class='row' class='clearfix'>
+            <div class='row-col-left'>
+                <img src=/pics/telephone.png alt=1><hr id='img-line'>
+                <p class='head-text'>Emergency Call</p>
+                <p class='md-text'>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.</p>
+                <span class='bott-text'>CALL US NOW</span>
+            </div>
+            <div class='row-col-md'>
+                <img src=/pics/nav.png alt=2><hr id='img-line'>
+                <p class='head-text'>Where Are We?</p>
+                <p class='md-text'>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.</p>
+                <span class='bott-text1'>SEE ON MAP</span>
+            </div>
+            <div class='row-col-right'>
+                    <img src=/pics/calendar.png alt=3><hr id='img-line1'>
+                    <p class='head-text1'>Opening Hours</p>
+                <div class='working-hours-box'>
+                    <div class='days'>
+                        <p>Mon - Fri:</p>
+                        <p>Saturday: </p>
+                        <p>Sunday:</p>
+                    </div>
+                    <div class='valandos'>
+                        <p>8:00am - 7:00pm</p>
+                        <p>9:00am - 6:00pm</p>
+                        <p>Closed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class='main'>
+        <div class='row2' class='clearfix'>
+            <div class='row2-left-column'>
+                <h2>Choose Our Clinic, Choose The Best Care For Yourself and Your Family</h2>
+                 <h4>Tom Henders</h4>
+                <p>Head Dentist</p>
+                <img id='signature' src=/pics/sig.png>
+            </div>
+            <div class='row2-right-column'>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                <button class='btn2'>See Our Services</button>
+            </div>
+        </div>
+        <div class='row3' class='clearfix'>
+            <div class='row3-left-col'>
+                <hr class='lef-col-hr'>
+                <h2>Our Values</h2>
+            </div>
+            <div class='row3-md-col'>
+                <hr>
+                <h4>Quality</h4>
+                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            </div>
+            <div class='row3-right-col'>
+                <hr>
+                <h4>Health</h4>
+                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class='footer'></div>
+   
+
+    <script>
+        document.querySelector('.toggle').onclick = function() {
+            this.classList.toggle('active');
+            document.querySelector('#show').classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
